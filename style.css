@@ -141,7 +141,8 @@
 .game-part{
     text-align: center;
     width: 80%;
-    margin: auto;
+    margin:10px auto 0;
+
 }
 .online-games{
     position: relative;
@@ -154,6 +155,7 @@
     justify-content: space-between;
     align-items: center;
     gap: 20px;
+    margin-bottom: 20px;
 }
 .game-des{
     margin-bottom: 50px;
