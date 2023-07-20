@@ -1,7 +1,7 @@
 @media screen and (max-width: 575px) {
 
     .menu-section, ul{
-        border: 2px solid red;
+
         flex-direction: column;
     }
     .nav-section {
@@ -9,6 +9,9 @@
     }
     .logo-part{
         width: 100%;
+    }
+    .header-btn{
+        margin-top: 20px;
     }
 
 }
