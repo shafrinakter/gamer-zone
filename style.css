@@ -184,14 +184,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* .game-des{
-    margin-bottom: 50px;
-}
-.img-description{
-    text-align: start;
-    margin-top: 10px;
-} */
-
 .play-button {
     position: absolute;
     top: 0;
@@ -203,6 +195,10 @@ header {
     align-items: center;
     opacity: 0;
     transition: opacity 0.25s;
+
+}
+.img-card {
+    width: 100%;
 
 }
 
@@ -257,37 +253,41 @@ header {
 
 /* game types */
 
-
+.game-section{
+    width: 80%;
+    margin: auto;
+}
 .game-type {
-
-    margin: 0 auto;
+    height: 500px;
+    margin: auto;
     display: flex;
     grid-template-columns: repeat(4, 1fr);
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 50px 105px;
+    
 }
 
 .game-name {
     display: flex;
     align-items: center;
-    width: 220px;
+    width: 200px;
     gap: 10px;
     background-color: white;
     margin-bottom: 20px;
     border-radius: 50px;
     border: 1px solid #f948b200;
-    padding: 5px;
-
-
+}
+.game-name:hover {
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    color: #F948B2;
+}
+.game-name img{
+    width: 50px;
 }
 
-.img-card {
-    width: 100%;
-
-}
 
 /* play game section */
 .play-games {
@@ -295,16 +295,13 @@ header {
     border: 2px solid paleturquoise;
 }
 
-.game-name:hover {
-    border: 1px solid #F948B2;
-    border-radius: 50px;
-    color: #F948B2;
-}
+
 
 /* footer section */
 footer {
     background-color: #0B0223;
     height: 632px;
+    margin-top: 50px;
 }
 
 .footer-section {

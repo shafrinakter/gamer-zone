@@ -29,12 +29,22 @@
         padding-right: 00px;
 
     }
+
     /* online section */
+    
+    .game-section{
+        width: 80%;
+        margin: auto;
+    }
     .online-game-section{
         flex-direction: column;
     }
     .online-game-section{
         width: 100%;
+    }
+    .game-type {
+
+        padding:10px;
     }
     footer {
         background-color: #0B0223;
