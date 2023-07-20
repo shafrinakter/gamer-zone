@@ -156,9 +156,13 @@ header{
     position: relative;
     width: fit-content;
     overflow: hidden;
+
     
 }
-.game-section{
+.online-game-section{
+    width: 100%;
+}
+.game-section, .online-game-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -167,6 +171,10 @@ header{
 }
 .game-des{
     margin-bottom: 50px;
+}
+.img-description{
+    text-align: start;
+    margin-top: 10px;
 }
 
 .play-button{
@@ -184,8 +192,8 @@ header{
 }
 .play-button:hover{
     backdrop-filter: blur(5px,);
-    background-color: rgba(0, 0, 0, 0.333);
-    border: 1px solid #F948B2;
+    background-color: rgba(0, 0, 0, 0.48);
+    border: 3px solid #F948B2;
     border-radius: 16px;
     opacity: 1;
 }
@@ -237,8 +245,9 @@ header{
 }
 
 /* game types */
-.game-section {
-    margin-top: 150px;
+.online-game-section {
+    margin-top: 60px;
+    
 }
 
 .game-type {
@@ -266,7 +275,9 @@ header{
 
 
 }
-
+.img-card{
+    width: 100%;
+}
 .game-img {
     width: 60px;
     height: 60px;

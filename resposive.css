@@ -29,6 +29,13 @@
         padding-right: 00px;
 
     }
+    /* online section */
+    .online-game-section{
+        flex-direction: column;
+    }
+    .online-game-section{
+        width: 100%;
+    }
 
 }
 
@@ -38,8 +45,6 @@
         flex-direction: column;
     }
     .banner {
-        
-        
         padding-left: 20px;
         padding-right: 20px;
 
