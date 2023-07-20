@@ -227,7 +227,6 @@ header {
     margin: 0px auto;
 }
 .play-game{
-    border: 2px solid black;
     width: 100%;
     height: 600px;
     display: flex;
@@ -374,9 +373,4 @@ small {
     margin: auto;
     display: block;
     margin-top: 30px;
-}
-
-
-.dispay {
-    display: none;
 }
