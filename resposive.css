@@ -1,24 +1,14 @@
-/* this is resposive */
 @media screen and (max-width: 575px) {
-    .menu-section,.menu-bar ul {
-        width: 100%;
+
+    .menu-section, ul{
         border: 2px solid red;
         flex-direction: column;
-        }
-        .nav-section {
+    }
+    .nav-section {
+        width: 100%;
+    }
+    .logo-part{
+        width: 100%;
+    }
 
-            padding-left: 0px;
-            padding-right: 0px;
-        }
-        
-        .logo-part {
-            width: 100%;
-        }
-        .header-btn {
-
-            /* gap: 10px; */
-            padding: 50px;
-            margin-top: 20px;
-
-        }
 }
