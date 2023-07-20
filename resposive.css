@@ -1,17 +1,49 @@
 @media screen and (max-width: 575px) {
 
-    .menu-section, ul{
+    .menu-section,
+    ul {
 
         flex-direction: column;
     }
+
     .nav-section {
         width: 100%;
     }
-    .logo-part{
+
+    .logo-part {
         width: 100%;
     }
-    .header-btn{
+
+    .header-btn {
         margin-top: 20px;
     }
+
+    .menu-bar {
+        margin-top: 10px;
+    }
+
+    .banner {
+        
+        flex-direction: column-reverse;
+        padding-left: 10px;
+        padding-right: 00px;
+
+    }
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 999px) {
+    .menu-section {
+        flex-direction: column;
+    }
+    .banner {
+        
+        
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
 
 }
