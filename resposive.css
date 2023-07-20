@@ -36,7 +36,10 @@
     .online-game-section{
         width: 100%;
     }
-
+    footer {
+        background-color: #0B0223;
+        height: 632px;
+    }
 }
 
 
